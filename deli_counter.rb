@@ -7,9 +7,9 @@ if array.count==0
 else
   numbered_customer_list=""
   array.each do |customer|
-    numbered_customer_list = numbered_customer_list << "#{array.index()
+    numbered_customer_list = numbered_customer_list << " #{array.index(customer)}. #{customer}"
     counter+=1
   end
-  "The line is currently: #{numbered_customer_list}"
+  "The line is currently:#{numbered_customer_list}"
   end
 end
